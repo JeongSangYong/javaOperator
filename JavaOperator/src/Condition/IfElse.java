@@ -1,4 +1,4 @@
-package ifCondition;
+package Condition;
 
 public class IfElse {
 	public static void main(String[] args) {
