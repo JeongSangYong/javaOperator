@@ -3,6 +3,7 @@ package controller;
 import Condition.ArithmeticCalc;
 import Condition.CalcAvg;
 import Condition.SwitchAvg;
+import loop.EvenOddSum;
 
 public class OperatorController {
 	public static void main(String[] args) {
@@ -16,7 +17,10 @@ public class OperatorController {
 		
 		//2015. 07. 10 스위치기반 성적계산기
 		SwitchAvg sc = new SwitchAvg();
-		sc.calc();
+		//sc.calc();	//cacl 원 클래스의 메소드 이름이다.
+		
+		EvenOddSum evenOddSum = new EvenOddSum();
+		evenOddSum.calc(); //객체가 메소드를 호출한다.
 		
 	}
 }
