@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @ Story : int형 배열에서 입력값 중 최대값 구하기
  * */
 
-public class InputMaxx {
+public class InputMax {
 	public static void main(String[] args) {
 		int max = 0;
 		
